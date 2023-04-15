@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Schibsted+Grotesk:ital@1&display=swap');
+
+/*here is general styles*/
+
+
+body {
+    font-family: 'DynaPuff', cursive;
+    background-color: rgb(247, 247, 247);
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    transition: all 2s;
+
+}
+
+/*here is navigation  and start building web site*/
+nav {
+    height: 70px;
+    border: solid 2px #ff0000;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    border-radius: 40px;
+    background: rgb(238, 174, 202);
+    background: linear-gradient(56deg, rgba(238, 174, 202, 1) 6%, rgba(70, 14, 144, 1) 35%, rgba(148, 187, 233, 1) 68%);
+    padding: 20px;
+}
+
+.nav-links {
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.nav-div {
+    margin: auto;
+}
+
+.nav-links:hover {
+    color: #ff0000;
+    cursor: pointer;
+    border-bottom: 4px solid #ff0000;
+
+
+}
+
+
+/*from here main( section 1(div 1 and div 2))*/
+.section-1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    height: auto;
+    border: dotted 1px green;
+    padding: 50px;
+
+}
+
+.section-1div-1 {
+    word-spacing: 8px;
+    letter-spacing: 2px;
+    width: 70%;
+    font-size: 21px;
+
+}
+
+.easylife {
+    color: red;
+    font-size: 30px;
+
+}
+
+.easyorder {
+    font-size: 30px;
+}
+
+.easyorder:hover {
+
+    font-size: 40px;
+    color: aqua;
+    text-indent: 30px;
+    transition: all 1s;
+}
+
+.easylife:hover {
+    font-size: 40px;
+    transition: all 1s;
+    color: gold;
+}
+
+.all:hover {
+    text-indent: 30px;
+    transition: all 1s;
+
+}
+
+
+.section-1div-2 {
+    width: 30%;
+
+
+}
+
+.section-1div-2 img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+
+}
+
+.section-1div-2 img:hover {
+    transform: scale(1.3);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+/*here section 2*/
+
+.section-2 {
+    font-size: 45px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    background-image: url("images-photo/back.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 150px;
+
+}
+
+hr {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+/*between section 2 and section 3*/
+.between {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    width: 200px;
+    height: 100px;
+}
+
+.buy-now {
+
+    text-transform: uppercase;
+    color: rgb(7, 12, 93);
+
+}
+
+#fontawesome {
+
+    font-size: 60px;
+}
+
+.up-fontawesome {
+    position: absolute;
+    right: 2px;
+}
+
+/*here is animmmmatttion 0000000000000000000000000000000000000000000000000*/
+.animation {
+
+    background-color: crimson;
+    width: 100%;
+    height: 230px;
+
+    animation: x 2s infinite;
+    border-radius: 30%;
+    position: relative;
+    z-index: 10;
+    margin-left: 60px;
+    border: 3px double aqua;
+    margin: auto;
+}
+
+@keyframes x {
+
+    0% {
+        background-color: blue;
+    }
+
+    20% {
+        background-color: blueviolet;
+    }
+
+    40% {
+        background-color: violet;
+    }
+
+    60% {
+        background-color: green;
+    }
+
+    80% {
+        background-color: rgb(34, 247, 1);
+    }
+
+    100% {
+        background-color: rgb(4, 125, 117);
+    }
+
+}
+
+.container-between-2 {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 270px;
+    position: relative;
+
+    margin: auto;
+}
+
+.containeer-div2 {
+    position: absolute;
+    z-index: 20;
+    right: 12%;
+    width: 78%;
+    height: 144;
+
+
+}
+
+.al-ahly-club {
+
+    font-size: 50px;
+    color: red;
+    font-weight: 900;
+
+}
+
+.span-1 {
+    color: white;
+}
+
+.span-2 {
+    color: black;
+}
+
+/*here stop about animation*/
+/*from here is sections for bage*/
+.section-3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#div1:hover {
+    transform: scale(1.4);
+    transition: all 1s;
+}
+
+
+.section-4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-5 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-6 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*here is forma for seiling */
+.cotainner-for-forma {
+    width: 85%;
+    height: 700px;
+
+
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    box-shadow: 15px 7px 30px #6c6b6b;
+}
+
+.poster-1 {
+    width: 50%;
+    height: 97%;
+
+
+    background-color: #7f279c;
+    position: relative;
+    color: aliceblue;
+}
+
+
+
+.poster-2 {
+    width: 50%;
+    height: 97%;
+    background-color: white;
+    position: relative;
+}
+
+.start {
+    display: inline-block;
+    text-align: start;
+    font-size: 30px;
+    color: aliceblue;
+    margin-right: 250px;
+
+}
+
+.name,
+.email,
+.tel {
+    width: 90%;
+    height: 45px;
+    border: none;
+
+    border-bottom: solid 2px #766B83;
+    background-color: #7f279c;
+    font-size: 25px;
+
+}
+
+.name,
+.email,
+.tel,
+:focus {
+    outline: none;
+
+}
+
+.details {
+    width: 90%;
+    height: 180px;
+    font-size: 25px;
+    background-color: #7f279c;
+    border-bottom: solid 2px #766B83;
+
+}
+
+.details,
+.submit,
+:focus {
+    outline: none;
+}
+
+.submit {
+    color: aliceblue;
+    width: 155px;
+    height: 50px;
+    background-color: rgb(214, 33, 150);
+    margin-right: 250px;
+    position: absolute;
+    left: 27px;
+
+}
+
+.submit:hover {
+
+    background-color: rgb(153, 19, 106);
+
+}
+
+.start-2 {
+    width: 350px;
+    color: black;
+    font-weight: 900;
+    position: absolute;
+    left: 6px;
+    top: 20px;
+    padding: 20px;
+    font-size: 33px;
+
+}
+
+.start-2::after {
+    content: "";
+    background-color: rgb(187, 13, 126);
+    width: 323px;
+    height: 4px;
+    position: absolute;
+    left: 37px;
+    top: 63px;
+}
+
+.after-start-2 {
+    margin-top: 115px;
+    padding: 13px;
+
+    color: black;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 30px;
+
+}
+
+/*00000000000000000000000*/
+.bos-1 {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.icon1 {
+    color: #330a41;
+    font-size: 38px;
+    margin-left: 15px;
+}
+
+.address {
+    margin-left: 15px;
+    color: black;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+/*0000000000000000000000*/
+.bos-2 {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+
+.icon2 {
+    color: #330a41;
+    font-size: 33px;
+    margin-left: 15px;
+}
+
+.phone {
+    margin-left: 15px;
+    color: black;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+#link {
+    text-decoration: none;
+    color: black;
+}
+
+/*000000000000000000000000*/
+
+.bos-3 {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+
+.icon3 {
+    color: #330a41;
+    font-size: 33px;
+    margin-left: 15px;
+
+}
+
+.Email {
+    color: black;
+    margin-left: 18px;
+    font-size: 20px;
+}
+
+#email {
+    text-decoration: none;
+    color: black;
+}
+
+/*00000000*/
+.bos-4 {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+
+.icon4 {
+    color: #330a41;
+    font-size: 33px;
+    margin-left: 15px;
+
+}
+
+.web {
+    color: black;
+    margin-left: 18px;
+    font-size: 20px;
+}
+
+#web {
+    text-decoration: none;
+    color: black;
+}
